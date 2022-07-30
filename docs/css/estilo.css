@@ -1,0 +1,230 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-color: darksalmon;
+}
+header{
+    display: flex;
+    background-color: crimson;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ header img{
+    text-align: left;
+    border-style: double;
+    border-color: yellowgreen;
+    border-width: 10px;
+    width: 15%;
+}
+header img li{
+    display: inline-block;
+        padding: 50px;
+    list-style: none;
+    font-size: x-large;
+    }
+
+.index{
+    border-style: double;
+    border-color: yellowgreen;
+    border-width: 20px;
+    width: 20%;
+}
+header{
+    display: inline-block;
+    width: 80%;
+    padding: 25px 80px;
+    background-color: rgb(182, 41, 95);
+    position: relative;
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(177, 123, 227);
+}
+nav ul li a:hover{
+    color: mediumspringgreen;
+}
+.img{
+    text-align: right;
+    border: 20px;
+    border-style: double;
+    border-color: chartreuse;
+}
+
+p{
+    background-color: darksalmon;
+    text-align: justify;
+    box-sizing: border-box;
+    border: 10px, 10px, 10px.10px;
+    border-style: dashed;
+    position: relative;
+   
+
+}
+.inicio{
+    margin: 20px;
+display: inline-block;
+text-align:justify;
+width: 90%;
+background-color: rgb(219, 93, 162);
+border-radius:5% ;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mapa{
+margin: 20px;
+display: flex;
+text-align:left ;
+width: max-content;
+background-color: azure;
+border-radius:5% ;
+}
+table{
+    background-color: darkcyan;
+    width: 50%;
+}
+table tr{
+    background-color: burlywood;
+}
+table tr input{
+    background-color: rgb(181, 189, 107);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer{
+    background-color: chocolate;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    border-style:ridge ;
+    border-color: magenta;
+}
+.card iframe{
+    width: 100%;
+   height: 30%;
+}
+.ore{
+    background-color: burlywood;
+    text-align: center;
+    border: 20px;
+    border-style: ridge;
+    border-color:plum ;
+   
+}
+h3{
+    background-color:rgb(154, 211, 62) ;
+    text-align: center;
+    border: 20px;
+    border-style: ridge;
+    border-color:plum ;
+   
+}
+button{
+    background-color: cadetblue;
+    text-align: center;
+    border-bottom: 30px;
+    width: 30%;
+}git push -u origin main
+
+input{
+    background-color: cornflowerblue;
+}
+@media screen and (max-width :90px ){
+    p{
+        background-color: rgb(122, 233, 205);
+        text-align: justify;
+        box-sizing: border-box;
+        border: 10px, 10px, 10px.10px;
+        border-style: dashed;
+        position: relative;
+       
+    
+    }
+    .inicio{
+        margin: 20px;
+    display: inline-block;
+    text-align:justify;
+    width: 40%;
+    background-color: rgb(219, 93, 162);
+    border-radius:5% ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    h2{
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .mapa{
+    margin: 20px;
+    display: flex;
+    text-align:left ;
+    width: max-content;
+    background-color: azure;
+    border-radius:5% ;
+    }
+    table{
+        background-color: darkcyan;
+        width: 50%;
+    }
+    table tr{
+        background-color: burlywood;
+    }
+    table tr input{
+        background-color: rgb(181, 189, 107);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    footer{
+        background-color: chocolate;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: large;
+        border-style:ridge ;
+        border-color: magenta;
+    }
+    .card iframe{
+        width: 100%;
+       height: 30%;
+    }
+    .ore{
+        background-color: burlywood;
+        text-align: center;
+        border: 20px;
+        border-style: ridge;
+        border-color:plum ;
+       
+    }
+    h3{
+        background-color:rgb(154, 211, 62) ;
+        text-align: center;
+        border: 20px;
+        border-style: ridge;
+        border-color:plum ;
+       
+    }
+    button{
+        background-color: cadetblue;
+        text-align: center;
+        border-bottom: 30px;
+        width: 30%;
+    }
+    input{
+        background-color: cornflowerblue;
+    }
+
+}
